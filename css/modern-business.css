@@ -22,6 +22,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 10px;
 }
 
 .portfolio-item {
