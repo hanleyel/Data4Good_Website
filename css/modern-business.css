@@ -4,14 +4,41 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
+/*Current color scheme:*/
+/*#d97300 (orange)*/
+/*#6a1e74 (purple)*/
+/*#0058ab (blue)*/
+/*#80bd41 (green)*/
+
+
 body {
   padding-top: 54px;
 }
+
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+  .header-section {
+    min-height: 65vh;
+      text-align: center;
+      padding-top: 15vh;
+      background-color: #f5f5f5;
+
+  }
+  .header-button {
+      width: 20vh;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    .audience-section {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 15vh;
+        background-color: #f5f5f5;
+
+    }
 }
 
 
@@ -29,6 +56,7 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+
 }
 
 .row{
