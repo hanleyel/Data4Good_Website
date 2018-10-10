@@ -4,7 +4,7 @@ A responive website for the Data4Good center based on the [Modern Business](http
 
 ## Preview
 
-[![Modern Business Preview](https://startbootstrap.com/assets/img/templates/modern-business.jpg)](https://blackrockdigital.github.io/startbootstrap-modern-business/)
+TBD
 
 **[View Live Preview](www.data4good.center)**
 
