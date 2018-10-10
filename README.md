@@ -1,12 +1,10 @@
-# Data4Good Center (www.data4good.center)
+# Data4Good Center
 
 A responive website for the Data4Good center based on the [Modern Business](http://startbootstrap.com/template-overviews/modern-business/) bootstrap template.
 
 ## Preview
 
 TBD
-
-**[View Live Preview](www.data4good.center)**
 
 ## Status
 
