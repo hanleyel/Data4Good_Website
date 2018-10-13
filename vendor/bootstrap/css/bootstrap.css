@@ -5773,7 +5773,6 @@ button.close {
 
 .carousel-item {
   position: relative;
-  display: none;
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
@@ -5984,7 +5983,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .carousel-caption {
