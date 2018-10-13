@@ -41,18 +41,19 @@ body {
     }
 }
 
+.control-prev {
+    font-size: 25px;
+    float: left;
+    margin-top: 30vh;
+    margin-left: 8vh;
+}
 
-/*.carousel-item {*/
-  /*height: 30vh; !*65vh;*!*/
-  /*min-height: 300px;*/
-  /*background: no-repeat center center scroll;*/
-  /*-webkit-background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*background-size: cover;*/
-  /*margin-top: 1rem;*/
-  /*margin-bottom: 3rem;*/
-/*}*/
+.control-next {
+    font-size: 25px;
+    float: right;
+    margin-top: 30vh;
+    margin-right: 8vh;
+}
 
 .portfolio-item {
   margin-bottom: 30px;

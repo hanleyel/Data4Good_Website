@@ -5894,7 +5894,7 @@ button.close {
   -ms-flex-pack: center;
   justify-content: center;
   width: 15%;
-  color: #fff;
+  color: #000000;
   text-align: center;
   opacity: 0.5;
 }
@@ -5902,7 +5902,7 @@ button.close {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   outline: 0;
   opacity: .9;
@@ -5910,10 +5910,12 @@ button.close {
 
 .carousel-control-prev {
   left: 0;
+  margin-left: 0px;
 }
 
 .carousel-control-next {
   right: 0;
+  margin-right: 0px;
 }
 
 .carousel-control-prev-icon,
@@ -5959,7 +5961,7 @@ button.close {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #000000;
 }
 
 .carousel-indicators li::before {
@@ -5983,7 +5985,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .carousel-caption {
