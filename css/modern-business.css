@@ -15,6 +15,9 @@ body {
   padding-top: 54px;
 }
 
+#learnMoreButton {
+  margin: 1rem;
+}
 
 @media (min-width: 992px) {
   body {
