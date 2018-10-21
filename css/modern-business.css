@@ -6,12 +6,19 @@
 
 /*Current color scheme:*/
 /*#3DBAFF (blue)*/
-/*##FFEF44 (yellow)*/
-/*##CC225E (red)*/
+/*#FFEF44 (yellow)*/
+/*#CC225E (red)*/
 
 
 body {
   padding-top: 54px;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+
+
+
 }
 
 #learnMoreButton {
@@ -80,4 +87,18 @@ body {
 
 .btn-floating {
   color: #3DBAFF;
+}
+
+.navbar {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.card-img-top {
+  width: 25%;
+}
+
+.listItemBlackText {
+  color: black;
+  margin: 1rem;
 }
