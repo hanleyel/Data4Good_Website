@@ -102,3 +102,7 @@ body {
   color: black;
   margin: 1rem;
 }
+
+.navbar-toggler-icon {
+  background-color: #3DBAFF;
+}
