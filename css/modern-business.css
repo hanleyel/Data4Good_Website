@@ -5,16 +5,29 @@
  */
 
 /*Current color scheme:*/
-/*#d97300 (orange)*/
-/*#6a1e74 (purple)*/
-/*#0058ab (blue)*/
-/*#80bd41 (green)*/
+/*#3DBAFF (blue)*/
+/*#FFEF44 (yellow)*/
+/*#CC225E (red)*/
 
 
 body {
   padding-top: 54px;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+
+
+
 }
 
+#learnMoreButton {
+  margin: 1rem;
+}
+
+#copyrightBlurb {
+  text-align: center;
+}
 
 @media (min-width: 992px) {
   body {
@@ -24,7 +37,7 @@ body {
     min-height: 65vh;
       text-align: center;
       padding-top: 15vh;
-      background-color: #f5f5f5;
+      /* background-color: #f5f5f5; */
 
   }
   .header-button {
@@ -62,4 +75,34 @@ body {
 .row{
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+#dlData, #cardButton, #learnMoreButton {
+  background-color: #CC225E;
+  border-color: #CC225E;
+}
+
+#cardButton {
+  color: #FFF;
+}
+
+.btn-floating {
+  color: #3DBAFF;
+}
+
+.navbar {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+#d4gLogo {
+  width: 25%;
+}
+
+.listItemBlackText {
+  color: black;
+  margin: 1rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #3DBAFF;
 }
