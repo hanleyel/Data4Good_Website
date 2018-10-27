@@ -1,14 +1,3 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
-/*Current color scheme:*/
-/*#3DBAFF (blue)*/
-/*#FFEF44 (yellow)*/
-/*#CC225E (red)*/
-
 
 body {
   padding-top: 54px;
@@ -16,8 +5,6 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'PT Sans', sans-serif; */
   font-family: 'Open Sans Condensed', sans-serif;
-
-
 
 }
 
@@ -110,4 +97,13 @@ body {
 /* portfolio-item.html */
 #projectsMoreHeadSpace {
   padding-top: 3.5rem;
+}
+
+.card{
+    border: none;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
 }
