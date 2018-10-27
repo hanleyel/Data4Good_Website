@@ -15,6 +15,66 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    
+    <!-- JQuery to get the values from contact us and run through the API Gateway -->
+    <script>
+    function submitToAPI(e) {
+      e.preventDefault();
+      var URL = "https://d734ofmb1h.execute-api.us-east-1.amazonaws.com/default/emailfwd";
+
+           var Namere = /[A-Za-z]{1}[A-Za-z]/;
+           if (!Namere.test($("#name").val())) {
+                        alert ("Name can not less than 2 char");
+               return;
+           }
+           var mobilere = /[0-9]{10}/;
+           if (!mobilere.test($("#phone").val())) {
+               alert ("Please enter valid mobile number");
+               return;
+           }
+           if ($("#email").val()=="") {
+               alert ("Please enter your email id");
+               return;
+           }
+
+           var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+           if (!reeamil.test($("#email").val())) {
+               alert ("Please enter valid email address");
+               return;
+           }
+
+      var name = $("#name").val();
+      var phone = $("#phone").val();
+      var email = $("#email").val();
+      var desc = $("#message-input").val();
+      var data = {
+         name : name,
+         phone : phone,
+         email : email,
+         desc : desc
+       };
+
+      $.ajax({
+        type: "POST",
+        url : "https://d734ofmb1h.execute-api.us-east-1.amazonaws.com/default/emailfwd",
+        dataType: "json",
+        crossDomain: "true",
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(data),
+
+        
+        success: function () {
+          // clear form and show a success message
+          alert("Successfull");
+          document.getElementById("contactForm").reset();
+      location.reload();
+        },
+        error: function () {
+          // show an error message
+          alert("UnSuccessfull");
+        }});
+    };
+  </script>
 
   </head>
 
@@ -140,7 +200,7 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form name="sentMessage" id="contactForm" method="post"> <!--novalidate-->
             <div class="control-group form-group">
               <div class="controls">
                 <label>Full Name:</label>
@@ -163,12 +223,12 @@
             <div class="control-group form-group">
               <div class="controls">
                 <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <textarea rows="10" cols="100" class="form-control" id="message-input" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
             <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+            <button type="submit" class="btn btn-primary" onClick=submitToAPI(event) id="sendMessageButton">Send Message</button>
           </form>
         </div>
 
