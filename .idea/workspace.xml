@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3709bf8-f788-4b8b-820c-d699746d26a7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/headshots/Akio_Headshot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/headshots/Amy_Headshot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/headshots/Chris_Headshot.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/headshots/Ed_Headshot.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/headshots/Liz_Headshot.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/audience.html" afterPath="$PROJECT_DIR$/audience.html" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/css/modern-business.css" afterPath="$PROJECT_DIR$/css/modern-business.css" />
-      <change beforePath="$PROJECT_DIR$/data.html" afterPath="$PROJECT_DIR$/data.html" />
-      <change beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
-      <change beforePath="$PROJECT_DIR$/img/GoBlue_Banner.jpg" afterPath="$PROJECT_DIR$/img/placeholders/GoBlue_Banner.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/Sample_Text.png" afterPath="$PROJECT_DIR$/img/placeholders/Sample_Text.png" />
-      <change beforePath="$PROJECT_DIR$/img/School_Of_Information_Banner.PNG" afterPath="$PROJECT_DIR$/img/placeholders/School_Of_Information_Banner.PNG" />
-      <change beforePath="$PROJECT_DIR$/img/UMSI_banner.png" afterPath="$PROJECT_DIR$/img/placeholders/UMSI_banner.png" />
-      <change beforePath="$PROJECT_DIR$/img/UMSI_logo_banner.png" afterPath="$PROJECT_DIR$/img/placeholders/UMSI_logo_banner.png" />
-      <change beforePath="$PROJECT_DIR$/img/dolphin.jpg" afterPath="$PROJECT_DIR$/img/placeholders/dolphin.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/earth.jpg" afterPath="$PROJECT_DIR$/img/placeholders/earth.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/fox1.jpg" afterPath="$PROJECT_DIR$/img/placeholders/fox1.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/fox2.jpg" afterPath="$PROJECT_DIR$/img/placeholders/fox2.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/globe.jpg" afterPath="$PROJECT_DIR$/img/placeholders/globe.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/hands_world.jpg" afterPath="$PROJECT_DIR$/img/placeholders/hands_world.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/hedgehog.jpg" afterPath="$PROJECT_DIR$/img/placeholders/hedgehog.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/kingfisher.jpg" afterPath="$PROJECT_DIR$/img/placeholders/kingfisher.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/logo-1.png" afterPath="$PROJECT_DIR$/img/placeholders/logo-1.png" />
-      <change beforePath="$PROJECT_DIR$/img/night_map.jpg" afterPath="$PROJECT_DIR$/img/placeholders/night_map.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/orange_logo.png" afterPath="$PROJECT_DIR$/img/placeholders/orange_logo.png" />
-      <change beforePath="$PROJECT_DIR$/img/turtle.jpg" afterPath="$PROJECT_DIR$/img/placeholders/turtle.jpg" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/portfolio-1-col.html" afterPath="$PROJECT_DIR$/portfolio-1-col.html" />
-      <change beforePath="$PROJECT_DIR$/portfolio-item.html" afterPath="$PROJECT_DIR$/portfolio-item.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,18 +19,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="45" />
+            <state relative-caret-position="222">
+              <caret line="374" column="112" lean-forward="false" selection-start-line="374" selection-start-column="96" selection-end-line="374" selection-end-column="112" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/modern-business.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+            <state relative-caret-position="236">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -77,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
-              <caret line="173" column="16" lean-forward="true" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
+            <state relative-caret-position="456">
+              <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -100,12 +69,13 @@
     <findStrings>
       <find>learn more</find>
       <find>i am a</find>
-      <find>placehold.it</find>
       <find>card-img-top</find>
       <find>img</find>
       <find>research</find>
-      <find>card</find>
       <find>our team</find>
+      <find>akio</find>
+      <find>card</find>
+      <find>placehold.it</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,12 +193,12 @@
       <workItem from="1539545832194" duration="294000" />
       <workItem from="1539721111531" duration="2256000" />
       <workItem from="1540224680559" duration="40000" />
-      <workItem from="1540679384430" duration="3819000" />
+      <workItem from="1540679384430" duration="5140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6409000" />
+    <option name="totallyTimeSpent" value="7730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="23" width="1346" height="837" extended-state="0" />
@@ -402,14 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67515">
@@ -418,18 +380,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="173" column="16" lean-forward="true" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
+        <state relative-caret-position="236">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        <state relative-caret-position="222">
+          <caret line="374" column="112" lean-forward="false" selection-start-line="374" selection-start-column="96" selection-end-line="374" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
           <folding />
         </state>
       </provider>

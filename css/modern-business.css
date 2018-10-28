@@ -41,6 +41,10 @@ body {
     }
 }
 
+.spacer{
+    margin-top: 10vh;
+}
+
 .control-prev {
     font-size: 25px;
     float: left;
