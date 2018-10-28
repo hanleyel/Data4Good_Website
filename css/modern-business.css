@@ -28,7 +28,7 @@ body {
 
   }
   .header-button {
-      width: 20vh;
+      width: 30vh;
       margin-left: auto;
       margin-right: auto;
   }
@@ -45,10 +45,10 @@ body {
     margin-top: 10vh;
 }
 
-.bottom-left{
-    position: absolute;
-    bottom: 8px;
-    left: 13vh;
+.header-button {
+    max-width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .control-prev {
