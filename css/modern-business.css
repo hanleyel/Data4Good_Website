@@ -45,6 +45,12 @@ body {
     margin-top: 10vh;
 }
 
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 13vh;
+}
+
 .control-prev {
     font-size: 25px;
     float: left;

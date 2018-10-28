@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3709bf8-f788-4b8b-820c-d699746d26a7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change beforePath="$PROJECT_DIR$/css/modern-business.css" afterPath="$PROJECT_DIR$/css/modern-business.css" />
+      <change beforePath="$PROJECT_DIR$/img/headshots/Ed_Headshot.JPG" afterPath="$PROJECT_DIR$/img/headshots/Ed_Headshot.JPG" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +32,8 @@
       <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/modern-business.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="324">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -49,9 +52,11 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="195" column="84" lean-forward="true" selection-start-line="195" selection-start-column="84" selection-end-line="195" selection-end-column="84" />
+              <folding>
+                <element signature="e#10902#10908#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +79,9 @@
       <find>research</find>
       <find>our team</find>
       <find>akio</find>
-      <find>card</find>
       <find>placehold.it</find>
+      <find>amanda</find>
+      <find>card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +113,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
+    <option name="x" value="119" />
     <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="837" />
@@ -145,6 +151,12 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="headshots" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Data4Good_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data4Good_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="placeholders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,6 +174,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/headshots" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/placeholders" />
     </key>
   </component>
@@ -193,15 +206,15 @@
       <workItem from="1539545832194" duration="294000" />
       <workItem from="1539721111531" duration="2256000" />
       <workItem from="1540224680559" duration="40000" />
-      <workItem from="1540679384430" duration="5140000" />
+      <workItem from="1540679384430" duration="7613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7730000" />
+    <option name="totallyTimeSpent" value="10203000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="23" width="1346" height="837" extended-state="0" />
+    <frame x="119" y="23" width="1346" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -380,14 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -396,11 +401,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="403">
+          <caret line="195" column="84" lean-forward="true" selection-start-line="195" selection-start-column="84" selection-end-line="195" selection-end-column="84" />
+          <folding>
+            <element signature="e#10902#10908#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
