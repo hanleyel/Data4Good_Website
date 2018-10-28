@@ -28,7 +28,7 @@ body {
 
   }
   .header-button {
-      width: 20vh;
+      width: 30vh;
       margin-left: auto;
       margin-right: auto;
   }
@@ -39,10 +39,17 @@ body {
         background-color: #f5f5f5;
 
     }
+
 }
 
 .spacer{
     margin-top: 10vh;
+}
+
+.header-button {
+    max-width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .control-prev {
@@ -100,7 +107,7 @@ body {
 
 /* portfolio-item.html */
 #projectsMoreHeadSpace {
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
 }
 
 .card{

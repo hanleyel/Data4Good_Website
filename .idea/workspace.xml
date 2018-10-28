@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f3709bf8-f788-4b8b-820c-d699746d26a7" name="Default" comment="" />
+=======
+    <list default="true" id="f3709bf8-f788-4b8b-820c-d699746d26a7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,9 +23,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="360">
               <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
               <folding />
+=======
+            <state relative-caret-position="263">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="e#23592#23598#0" expanded="true" />
+              </folding>
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
             </state>
           </provider>
         </entry>
@@ -27,8 +41,13 @@
       <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/modern-business.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="735">
               <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+=======
+            <state relative-caret-position="318">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
               <folding />
             </state>
           </provider>
@@ -37,8 +56,13 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="8445">
               <caret line="563" column="14" lean-forward="false" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+=======
+            <state relative-caret-position="392">
+              <caret line="563" column="14" lean-forward="true" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
               <folding />
             </state>
           </provider>
@@ -47,10 +71,17 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1905">
               <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
               <folding>
                 <element signature="e#9733#9739#0" expanded="true" />
+=======
+            <state relative-caret-position="222">
+              <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="34" />
+              <folding>
+                <element signature="e#10915#10921#0" expanded="true" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
               </folding>
             </state>
           </provider>
@@ -59,8 +90,13 @@
       <file leaf-file-name="portfolio-item.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio-item.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2895">
               <caret line="193" column="29" lean-forward="false" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+=======
+            <state relative-caret-position="161">
+              <caret line="193" column="29" lean-forward="true" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
               <folding />
             </state>
           </provider>
@@ -84,9 +120,20 @@
       <find>research</find>
       <find>our team</find>
       <find>akio</find>
-      <find>card</find>
       <find>placehold.it</find>
+<<<<<<< HEAD
       <find>analytics</find>
+=======
+      <find>amanda</find>
+      <find>gapminder</find>
+      <find>bubble chart</find>
+      <find>@media</find>
+      <find>i want to</find>
+      <find>card</find>
+      <find>spacer</find>
+      <find>refugee</find>
+      <find>nonprofit</find>
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,12 +144,12 @@
       <list>
         <option value="$PROJECT_DIR$/portfolio-1-col.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/portfolio-item.html" />
         <option value="$PROJECT_DIR$/data.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/modern-business.css" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/css/modern-business.css" />
+        <option value="$PROJECT_DIR$/portfolio-item.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -118,7 +165,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
+    <option name="x" value="265" />
     <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="837" />
@@ -152,6 +199,15 @@
               <item name="Data4Good_Website" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="Data4Good_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data4Good_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
           </expand>
           <select />
         </subPane>
@@ -166,8 +222,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/headshots" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/placeholders" />
+      <recent name="$PROJECT_DIR$/img/headshots" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,15 +255,23 @@
       <workItem from="1539545832194" duration="294000" />
       <workItem from="1539721111531" duration="2256000" />
       <workItem from="1540224680559" duration="40000" />
-      <workItem from="1540679384430" duration="5140000" />
+      <workItem from="1540679384430" duration="11642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="23" width="1346" height="837" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="14232000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="265" y="23" width="1346" height="837" extended-state="0" />
+    <editor active="true" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -254,7 +319,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#23592#23598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -334,7 +401,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#23592#23598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -383,6 +452,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -544,6 +614,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
     <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -574,22 +646,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="8445">
           <caret line="563" column="14" lean-forward="false" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+=======
+        <state relative-caret-position="392">
+          <caret line="563" column="14" lean-forward="true" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/modern-business.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="735">
           <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+=======
+        <state relative-caret-position="318">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1905">
           <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
           <folding>
@@ -610,7 +693,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+=======
+        <state relative-caret-position="222">
+          <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="34" />
+          <folding>
+            <element signature="e#10915#10921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="193" column="29" lean-forward="true" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+>>>>>>> bd904e1edc144313a93f6c7b5c995f1cc2a14d12
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#23592#23598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
