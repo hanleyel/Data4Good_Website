@@ -46,6 +46,12 @@ body {
     margin-top: 10vh;
 }
 
+.page-title {
+    font-size: 5em;
+    text-align: center;
+    font-weight: 900;
+}
+
 .header-button {
     max-width: 30vh;
     margin-left: auto;
@@ -90,6 +96,8 @@ body {
 .navbar {
   padding: 1.5rem;
   background-color: white;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 #d4gLogo {
