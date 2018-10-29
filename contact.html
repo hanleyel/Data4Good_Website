@@ -81,6 +81,17 @@
     };
   </script>
 
+    <!-- Google Analytics site tag -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128264329-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-128264329-1');
+    </script>
+
   </head>
 
   <body>
@@ -156,18 +167,9 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Page Heading/Breadcrumbs -->
-        <br>
-      <h1 class="mt-4 mb-3">Contact Us
-        <!--<small>Subheading</small>-->
+      <div class="spacer"></div>
+      <h1 class="subheader">Contact Us
       </h1>
-
-<!--      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Contact</li>
-      </ol>-->
 
       <!-- Content Row -->
       <div class="row">
@@ -179,23 +181,25 @@
         </div>
         <!-- Contact Details Column -->
         <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
+          <h1><b>Contact Details</b></h1>
+          <br>
+          <h4>
               <b>Data4Good Center</b>
             <br>School of Information
             <br>4322 North Quad
             <br>105 S. State Street
             <br>Ann Arbor, MI 48109-1285
-          </p>
-          <p>
+          </h4>
+          <br>
+          <h4>
             <abbr title="Phone">P</abbr>: Office: +1 734-764-6367
             <br><abbr title="Phone">P</abbr>: Mobile: +1 203-979-5364
-          </p>
-          <p>
+          </h4>
+          <h4>
             <abbr title="Email">E</abbr>:
             <a href="mailto:name@example.com">ehapp@umich.edu
             </a>
-          </p>
+          </h4>
           <!--<p>-->
             <!--<abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM-->
           <!--</p>-->
@@ -207,7 +211,7 @@
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
       <div class="row">
         <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
+          <h1><b>Send us a Message</b></h1>
           <form name="sentMessage" id="contactForm" method="post"> <!--novalidate-->
             <div class="control-group form-group">
               <div class="controls">
