@@ -42,6 +42,13 @@ body {
 
 }
 
+a {
+    color: #3DBAFF;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
 .spacer{
     margin-top: 10vh;
 }
@@ -61,14 +68,14 @@ body {
 .control-prev {
     font-size: 25px;
     float: left;
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-left: 8vh;
 }
 
 .control-next {
     font-size: 25px;
     float: right;
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-right: 8vh;
 }
 
