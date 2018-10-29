@@ -59,6 +59,11 @@ a {
     font-weight: 900;
 }
 
+.subheader {
+    font-size: 3em;
+    font-weight: 900;
+}
+
 .header-button {
     max-width: 30vh;
     margin-left: auto;
@@ -134,3 +139,18 @@ a {
     width: 100%;
     border-radius: calc(0.25rem - 1px);
 }
+
+.video {
+    margin-right: 20vh;
+}
+
+.centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #ffffff;
+     background-color: #CC225E;
+     font-size: 2.5em;
+     opacity: 0.9;
+ }
