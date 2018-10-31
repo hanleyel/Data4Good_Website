@@ -111,3 +111,10 @@ body {
 #projectsMoreHeadSpace {
   padding-top: 1.5rem;
 }
+
+
+#microsoftLogo {
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
