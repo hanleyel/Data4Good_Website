@@ -131,6 +131,14 @@ a {
   padding-top: 1.5rem;
 }
 
+
+
+#microsoftLogo {
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
 .card{
     border: none;
 }
@@ -154,3 +162,4 @@ a {
      font-size: 2.5em;
      opacity: 0.9;
  }
+
