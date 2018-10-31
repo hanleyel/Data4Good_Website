@@ -1,14 +1,3 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
-/*Current color scheme:*/
-/*#3DBAFF (blue)*/
-/*#FFEF44 (yellow)*/
-/*#CC225E (red)*/
-
 
 body {
   padding-top: 54px;
@@ -16,8 +5,6 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'PT Sans', sans-serif; */
   font-family: 'Open Sans Condensed', sans-serif;
-
-
 
 }
 
@@ -41,7 +28,7 @@ body {
 
   }
   .header-button {
-      width: 20vh;
+      width: 30vh;
       margin-left: auto;
       margin-right: auto;
   }
@@ -52,19 +39,48 @@ body {
         background-color: #f5f5f5;
 
     }
+
+}
+
+a {
+    color: #3DBAFF;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.spacer{
+    margin-top: 10vh;
+}
+
+.page-title {
+    font-size: 5em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.subheader {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.header-button {
+    max-width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .control-prev {
     font-size: 25px;
     float: left;
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-left: 8vh;
 }
 
 .control-next {
     font-size: 25px;
     float: right;
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-right: 8vh;
 }
 
@@ -92,6 +108,9 @@ body {
 .navbar {
   padding: 1.5rem;
   background-color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    opacity: 0.975;
 }
 
 #d4gLogo {
@@ -113,8 +132,34 @@ body {
 }
 
 
+
 #microsoftLogo {
   width: 100%;
   /* margin-left: auto;
   margin-right: auto; */
 }
+
+.card{
+    border: none;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.video {
+    margin-right: 20vh;
+}
+
+.centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #ffffff;
+     background-color: #CC225E;
+     font-size: 2.5em;
+     opacity: 0.9;
+ }
+

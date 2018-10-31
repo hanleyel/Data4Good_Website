@@ -30,7 +30,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
 
-
     <title>Data4Good Center</title>
 
     <!-- Bootstrap core CSS -->
@@ -40,14 +39,27 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
+      <!-- Google Analytics site tag -->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128264329-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-128264329-1');
+      </script>
+
+
   </head>
 
   <body>
 
+
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="card-img-top" id="d4gLogo" src="img/logo-1.png" alt="Data 4 Good"></a>
+        <a class="navbar-brand" href="index.html"><img class="card-img-top" id="d4gLogo" src="img/placeholders/logo-1.png" alt="Data 4 Good"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,65 +71,28 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html"><span class="listItemBlackText">About</span></a>
               </li>
-            <!--<li class="nav-item">-->
-              <!--<a class="nav-link" href="audience.html">Audience</a>-->
-            <!--</li>-->
-              <!--<li class="nav-item">-->
-                  <!--<a class="nav-link" href="events.html">Events</a>-->
-              <!--</li>-->
               <li class="nav-item">
                 <a class="nav-link" href="contact.html"><span class="listItemBlackText">Contact</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio-item.html"><span class="listItemBlackText">Projects</span></a>
-                <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProjects">-->
-                  <!--<a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>-->
-                  <!--<a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>-->
-                  <!--<a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>-->
-                  <!--<a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>-->
-                  <!--<a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>-->
-                <!--</div>-->
               </li>
               <li class="nav-item">
                   <a class="btn btn-lg btn-secondary btn-block" href="data.html" id="dlData">Download Data</a>
               </li>
-
-            <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                <!--Blog-->
-              <!--</a>-->
-              <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">-->
-                <!--<a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>-->
-                <!--<a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>-->
-                <!--<a class="dropdown-item" href="blog-post.html">Blog Post</a>-->
-              <!--</div>-->
-            <!--</li>-->
-
-            <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                <!--Other Pages-->
-              <!--</a>-->
-              <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">-->
-                <!--<a class="dropdown-item" href="full-width.html">Full Width Page</a>-->
-                <!--<a class="dropdown-item" href="sidebar.html">Sidebar Page</a>-->
-                <!--<a class="dropdown-item" href="faq.html">FAQ</a>-->
-                <!--<a class="dropdown-item" href="404.html">404</a>-->
-                <!--<a class="dropdown-item" href="pricing.html">Pricing Table</a>-->
-              <!--</div>-->
-            <!--</li>-->
-
           </ul>
         </div>
       </div>
     </nav>
+
 
     <section>
         <header>
             <div class="header-section">
                 <div class="container">
                     <br>
-                    <h1 class="my-4">Data4Good Center</h1>
-                    <h5>The place where data, training, and implementation connect<br>to make nonprofit organizations stronger.</h5>
+                    <h1 class="page-title">Data4Good Center</h1>
+                    <h2>The place where data, training, and implementation connect<br>to make nonprofit organizations stronger.</h2>
                     <div class="row justify-content-center">
                         <a class="btn btn-lg btn-secondary btn-block header-button col-lg-2 col-md-3 col-sm-6" id="learnMoreButton" href="about.html">Learn More</a>
                     </div>
@@ -128,7 +103,9 @@
 
 
     <!--Carousel Wrapper-->
-    <!--<div class="container">-->
+    <div class="container">
+    <h1 class="subheader">Recent Projects</h1>
+    </div>
 
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -155,42 +132,45 @@
                 <div class="carousel-item active">
                     <div class="row">
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(16).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                        <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
+                                <a href="index.html">
                                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
                                      alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
+                                    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                        <!--card's content.</p>-->
                                 </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -205,40 +185,43 @@
 
                         <div class="col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(20).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(37).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(21).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <!--/row-->
@@ -252,40 +235,43 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(23).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                                     alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-primary" id="cardButton">Button</a>
-                                </div>
+                                <a href="index.html">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(24).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the-->
+                                            <!--card's content.</p>-->
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <!--/row-->
@@ -308,7 +294,7 @@
 
 
         <!-- Projects Section -->
-        <h2>Current Research</h2>
+        <h1 class="subheader">Current Research</h1>
         <div class="row">
             <div class="col-lg-6 col-sm-6 portfolio-item">
                 <div class="card">
@@ -334,98 +320,13 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="col-lg-3 col-sm-6 portfolio-item">-->
-                <!--<div class="card h-100">-->
-                    <!--<a href="#"><img class="card-img-top" src="http://placehold.it/140x100/ffffff" alt=""></a>-->
-                    <!--<div class="card-body">-->
-                        <!--<h4 class="card-title">-->
-                            <!--<a href="#">Project Three</a>-->
-                        <!--</h4>-->
-                        <!--<p class="card-text">Lorem ipsum</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-sm-6 portfolio-item">-->
-                <!--<div class="card h-100">-->
-                    <!--<a href="#"><img class="card-img-top" src="http://placehold.it/140x100/ffffff" alt=""></a>-->
-                    <!--<div class="card-body">-->
-                        <!--<h4 class="card-title">-->
-                            <!--<a href="#">Project Four</a>-->
-                        <!--</h4>-->
-                        <!--<p class="card-text">Lorem ipsum</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
         <!-- /.row -->
     </div>
 
-        <section>
-            <header>
-                <div class="audience-section">
-                    <div class="container">
-                        <br>
-                        <h1 class="my-4">I want to...</h1>
-                        <h5>A section for audience-specific links.</h5>
-                        <div>
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-6 portfolio-item">
-                                    <div class="card">
-                                        <a href="#"><img class="card-img-top"
-                                                         src="http://placehold.it/500x300/ffffff?text=Researcher"
-                                                         alt=""></a>
-                                        <div class="card-body">
-                                            <!--<h4 class="card-title">-->
-                                                <!--<p class="card-text">Looking for...</p>-->
-                                            <!--</h4>-->
-                                            <a class="btn btn-lg btn-secondary btn-block" href="data.html">Download Data
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Researcher</a>-->
-                                <div class="col-lg-4 col-sm-6 portfolio-item">
-                                    <div class="card">
-                                        <a href="#"><img class="card-img-top"
-                                                         src="http://placehold.it/500x300/ffffff?text=Nonprofit"
-                                                         alt=""></a>
-                                        <div class="card-body">
-                                            <!--<h4 class="card-title">-->
-                                                <!--<a href="#">Nonprofit</a>-->
-                                            <!--</h4>-->
-                                            <!--<p class="card-text">(Analytics?)</p>-->
-                                            <a class="btn btn-lg btn-secondary btn-block" href="portfolio-item.html">
-                                                View Analytics
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Nonprofit</a>-->
-                                <div class="col-lg-4 col-sm-6 portfolio-item">
-                                    <div class="card">
-                                        <a href="#"><img class="card-img-top"
-                                                         src="http://placehold.it/500x300/ffffff?text=Journalist"
-                                                         alt=""></a>
-                                        <div class="card-body">
-                                            <!--<h4 class="card-title">-->
-                                            <!--<a href="#">Nonprofit</a>-->
-                                            <!--</h4>-->
-                                            <!--<p class="card-text">(Analytics?)</p>-->
-                                            <a class="btn btn-lg btn-secondary btn-block" href="portfolio-item.html">
-                                                See Press Releases
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Journalist</a>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </section>
-    <div class="container">
 
+    <!-- Gapminder bubble chart -->
+    <div class="container">
 
         <div id="placeholder" style="width: 100%; height: 600px;"></div> <!-- Don't touch this line! The prior person used
         it on the old site and for some reason it's necessary for the bubble chart to show up despite its name. -->
@@ -441,9 +342,75 @@
 
         <hr>
 
-
     </div>
     <!-- /.container -->
+
+
+        <section>
+            <header>
+                <div class="audience-section">
+                    <div class="container">
+                        <br>
+                        <h1 class="subheader">Resources for:</h1>
+                        <!--<h5>A section for audience-specific links.</h5>-->
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card">
+                                        <a href="data.html"><img class="card-img-top"
+                                                         src="http://placehold.it/500x300/ffffff?text=Researcher"
+                                                         alt=""><p>Researchers</p></a>
+                                        <!--<div class="card-body">-->
+                                            <!--&lt;!&ndash;<h4 class="card-title">&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<p class="card-text">Looking for...</p>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</h4>&ndash;&gt;-->
+                                            <!--<a class="btn btn-lg btn-secondary btn-block" href="data.html">Download Data-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                    </div>
+                                </div>
+                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Researcher</a>-->
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card">
+                                        <a href="portfolio-item.html"><img class="card-img-top"
+                                                         src="img/nonprofit_img.png"
+                                                         alt=""><p>Nonprofits</p></a>
+                                        <!--<div class="card-body">-->
+                                            <!--&lt;!&ndash;<h4 class="card-title">&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<a href="#">Nonprofit</a>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</h4>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<p class="card-text">(Analytics?)</p>&ndash;&gt;-->
+                                            <!--<a class="btn btn-lg btn-secondary btn-block" href="portfolio-item.html">-->
+                                                <!--View Analytics-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                    </div>
+                                </div>
+                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Nonprofit</a>-->
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card">
+                                        <a href="portfolio-item.html"><img class="card-img-top"
+                                                         src="http://placehold.it/500x300/ffffff?text=Journalist"
+                                                         alt=""><p>Journalists</p></a>
+                                        <!--<div class="card-body">-->
+                                            <!--&lt;!&ndash;<h4 class="card-title">&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<a href="#">Nonprofit</a>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</h4>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;<p class="card-text">(Analytics?)</p>&ndash;&gt;-->
+                                            <!--<a class="btn btn-lg btn-secondary btn-block" href="portfolio-item.html">-->
+                                                <!--See Press Releases-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                    </div>
+                                </div>
+                                <!--<a class="btn btn-lg btn-secondary header-button" href="about.html">Journalist</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
@@ -462,10 +429,9 @@
       </div>
         <div class="row">
           <p class="m-0 text-center text-white">Copyright &copy; University of Michigan School of Information || Data4Good Center 2018</p>
-        </div>
-      </div>
-      <!-- /.container -->
+        <!-- /.container -->
     </footer>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
