@@ -163,3 +163,11 @@ a {
      opacity: 0.9;
  }
 
+#soon2come_list_item {
+  font-size: 1.5rem;
+}
+
+.reportImages{
+  border:3px solid;
+  max-height: 25rem;
+}
