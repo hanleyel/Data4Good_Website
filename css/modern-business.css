@@ -54,13 +54,13 @@ a {
 }
 
 .page-title {
-    font-size: 5em;
+    font-size: 32px;
     text-align: center;
     font-weight: 900;
 }
 
 .subheader {
-    font-size: 3em;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -108,7 +108,7 @@ a {
 .navbar {
   padding: 1.5rem;
   background-color: white;
-    font-size: 1.5em;
+    font-size: 1rem;
     font-weight: 600;
     opacity: 0.975;
 }
