@@ -20,7 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    
+
     <!-- JQuery to get the values from contact us and run through the API Gateway -->
     <script>
     function submitToAPI(e) {
@@ -67,7 +67,7 @@
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(data),
 
-        
+
         success: function () {
           // clear form and show a success message
           alert("Successfull");
@@ -99,7 +99,7 @@
     <!-- Navigation -->
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img class="card-img-top" id="d4gLogo" src="img/placeholders/logo-1.png" alt="Data 4 Good"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -165,18 +165,17 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="spacer"></div>
-      <h1 class="subheader">Contact Us
-      </h1>
+      <h1 class="page-title">Contact Us</h1>
 
       <!-- Content Row -->
       <div class="row">
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
           <!-- Embedded Google Map -->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.9048493618893!2d-83.74241488459279!3d42.28055444811157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae40746ad639%3A0x9777deab36d450cd!2sSchool+of+Information+at+the+University+of+Michigan!5e0!3m2!1sen!2sus!4v1536935960584" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.9048493618893!2d-83.74241488459279!3d42.28055444811157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae40746ad639%3A0x9777deab36d450cd!2sSchool+of+Information+at+the+University+of+Michigan!5e0!3m2!1sen!2sus!4v1536935960584" class="w-100 h-100" frameborder="0" style="border:0" allowfullscreen></iframe>
           <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=42.280730,-83.740070&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>-->
         </div>
         <!-- Contact Details Column -->
@@ -248,11 +247,11 @@
       <!-- /.row -->
 
     </div>
-    <!-- /.container -->
+    <!-- /.container-fluid -->
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
             <h6 class="m-0 text-white">Partners</h6>
@@ -272,7 +271,7 @@
           <p class="m-0 text-center text-white">Copyright &copy; University of Michigan School of Information || Data4Good Center 2018</p>
         </div>
       </div>
-      <!-- /.container -->
+      <!-- /.container-fluid -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->

@@ -56,12 +56,11 @@ a {
 .page-title {
     font-size: 5em;
     text-align: center;
-    font-weight: 900;
-}
+    padding-top: 1em;
+  }
 
 .subheader {
     font-size: 3em;
-    font-weight: 900;
 }
 
 .header-button {
@@ -123,7 +122,10 @@ a {
 }
 
 .navbar-toggler-icon {
-  background-color: #3DBAFF;
+  outline-color: gray;
+  outline-style: solid;
+  background-color: gray;
+  /* color: #3DBAFF; */
 }
 
 /* portfolio-item.html */
