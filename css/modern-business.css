@@ -173,3 +173,7 @@ a {
   border:3px solid;
   max-height: 25rem;
 }
+
+#linkFormat {
+  text-decoration: none;
+}
