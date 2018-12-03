@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 10rem;
+  padding-top: 54px;
   /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'PT Sans', sans-serif; */
@@ -54,7 +54,7 @@ a {
 }
 
 .page-title {
-    font-size: 32px;
+    font-size: 3em;
     text-align: center;
     padding-top: 1em;
   }
@@ -107,8 +107,8 @@ a {
 .navbar {
   padding: 1.5rem;
   background-color: white;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.5em;
+    /* font-weight: 600; */
     opacity: 0.975;
 }
 
