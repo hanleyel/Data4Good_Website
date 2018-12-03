@@ -56,7 +56,7 @@ a {
 .page-title {
     font-size: 3em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 2em;
   }
 
 .subheader {
@@ -113,7 +113,7 @@ a {
 }
 
 #d4gLogo {
-  width: 25%;
+  width: 75%;
 }
 
 .listItemBlackText {
@@ -133,7 +133,10 @@ a {
   padding-top: 1.5rem;
 }
 
-
+.subblurb{
+  padding: 1em 2em;
+  text-align: center;
+}
 
 #microsoftLogo {
   width: 100%;
