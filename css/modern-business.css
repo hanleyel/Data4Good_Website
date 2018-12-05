@@ -24,7 +24,10 @@ body {
     min-height: 65vh;
       text-align: center;
       padding-top: 15vh;
-      /* background-color: #f5f5f5; */
+      padding-bottom: 15vh;
+      margin-bottom: 5vh;
+       background-image: url("../img/sky_background.jpg");
+       )
 
   }
   .header-button {
