@@ -16,6 +16,39 @@ body {
   text-align: center;
 }
 
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header-section {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        margin-bottom: 5vh;
+        /*background-image: url("../img/sky_background_sm.jpg");*/
+    /*)*/
+
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .header-section {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        margin-bottom: 5vh;
+        /*background-image: url("../img/sky_background_med.jpg");*/
+    /*)*/
+
+    }
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -26,8 +59,8 @@ body {
       padding-top: 15vh;
       padding-bottom: 15vh;
       margin-bottom: 5vh;
-       background-image: url("../img/sky_background.jpg");
-       )
+       /*background-image: url("../img/sky_background_med.jpg");*/
+       /*)*/
 
   }
   .header-button {
@@ -42,6 +75,51 @@ body {
         background-color: #f5f5f5;
 
     }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    /*.header-section {*/
+        /*min-height: 65vh;*/
+        /*text-align: center;*/
+        /*padding-top: 15vh;*/
+        /*padding-bottom: 15vh;*/
+        /*margin-bottom: 5vh;*/
+        /*background-image: url("../img/sky_background_lg.jpg");*/
+    /*)*/
+
+    /*}*/
+}
+
+.header-section {
+    min-height: 100%;
+    min-width: auto;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-bottom: 5vh;
+    background-image: url("../img/sky_background_lg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+)
+
+}
+
+/*.background_img {*/
+    /*background-image: url("../img/sky_background_lg.jpg") ;*/
+    /*min-height:100%;*/
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*-moz-background-size: cover;*/
+/*}*/
+
+.mb-2 {
 
 }
 
@@ -145,6 +223,11 @@ a {
   width: 100%;
   /* margin-left: auto;
   margin-right: auto; */
+}
+
+.carousel-inner{
+    min-height: 100%;
+    min-width: auto;
 }
 
 .card{
