@@ -31,6 +31,7 @@ body {
     /*)*/
 
     }
+
 }
 
 @media (min-width: 768px) {
@@ -47,6 +48,7 @@ body {
     /*)*/
 
     }
+
 }
 
 @media (min-width: 992px) {
@@ -76,6 +78,12 @@ body {
 
     }
 
+}
+
+@media (max-width: 992px) {
+    .carousel-desktop{
+        display:None;
+    }
 }
 
 @media (min-width: 1200px) {
