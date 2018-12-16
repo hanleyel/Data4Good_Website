@@ -1,3 +1,11 @@
+/* DO NOT REMOVE
+BRAND COLORS
+
+blue: 3DBAFF
+yellow: FFEF44
+purple: CC225E
+
+ */
 
 body {
   padding-top: 54px;
@@ -80,8 +88,16 @@ body {
 
 }
 
+/* Make carousel disappear for mobile ver */
 @media (max-width: 992px) {
     .carousel-desktop{
+        display:None;
+    }
+}
+
+/* Make mobile friendly carousel disappear for desktop */
+@media (min-width: 992px) {
+    .carousel-desktop-mobile{
         display:None;
     }
 }
@@ -90,16 +106,6 @@ body {
     .container {
         max-width: 1140px;
     }
-    /*.header-section {*/
-        /*min-height: 65vh;*/
-        /*text-align: center;*/
-        /*padding-top: 15vh;*/
-        /*padding-bottom: 15vh;*/
-        /*margin-bottom: 5vh;*/
-        /*background-image: url("../img/sky_background_lg.jpg");*/
-    /*)*/
-
-    /*}*/
 }
 
 .header-section {
@@ -114,21 +120,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
-)
-
-}
-
-/*.background_img {*/
-    /*background-image: url("../img/sky_background_lg.jpg") ;*/
-    /*min-height:100%;*/
-    /*background-attachment: fixed;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*-moz-background-size: cover;*/
-/*}*/
-
-.mb-2 {
-
 }
 
 a {
@@ -190,8 +181,14 @@ a {
 }
 
 .btn-floating {
-  color: #3DBAFF;
+  color: #CC225E;
+  opacity: unset;
 }
+.btn-floating:hover {
+  color: #CC225E;
+  opacity: unset;
+}
+
 
 .navbar {
   padding: 1.5rem;
@@ -234,8 +231,16 @@ a {
 }
 
 .carousel-inner{
+    width: 100%;
     min-height: 100%;
     min-width: auto;
+}
+
+.carousel-control-next {
+  z-index: 2;
+}
+.carousel-control-prev {
+  z-index: 2;
 }
 
 .card{
@@ -243,7 +248,7 @@ a {
 }
 
 .card-img {
-    width: 100%;
+    /* width: 100%; */
     border-radius: calc(0.25rem - 1px);
 }
 
