@@ -1,3 +1,11 @@
+/* DO NOT REMOVE
+BRAND COLORS
+
+blue: 3DBAFF
+yellow: FFEF44
+purple: CC225E
+
+ */
 
 body {
   padding-top: 54px;
@@ -8,12 +16,74 @@ body {
 
 }
 
+.hero-image {
+  background: url("../img/sky_background_sm.jpg") no-repeat center;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  margin-top: 5em;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(248, 248, 255, 0.6);
+}
+
+#the-page-title {
+  font-size: 3em;
+}
+
+.page-title {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 2em;
+}
+
 #learnMoreButton {
   margin: 1rem;
 }
 
 #copyrightBlurb {
   text-align: center;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header-section {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        margin-bottom: 5vh;
+        /*background-image: url("../img/sky_background_sm.jpg");*/
+    /*)*/
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .header-section {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        margin-bottom: 5vh;
+        /*background-image: url("../img/sky_background_med.jpg");*/
+    /*)*/
+
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -24,7 +94,10 @@ body {
     min-height: 65vh;
       text-align: center;
       padding-top: 15vh;
-      /* background-color: #f5f5f5; */
+      padding-bottom: 15vh;
+      margin-bottom: 5vh;
+       /*background-image: url("../img/sky_background_med.jpg");*/
+       /*)*/
 
   }
   .header-button {
@@ -42,6 +115,41 @@ body {
 
 }
 
+/* Make carousel disappear for mobile ver */
+@media (max-width: 992px) {
+    .carousel-desktop{
+        display:None;
+    }
+}
+
+/* Make mobile friendly carousel disappear for desktop */
+@media (min-width: 992px) {
+    .carousel-desktop-mobile{
+        display:None;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.header-section {
+    min-height: 100%;
+    min-width: auto;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-bottom: 5vh;
+    background-image: url("../img/sky_background_lg.jpg");
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
 a {
     color: #3DBAFF;
     text-decoration: none;
@@ -53,15 +161,8 @@ a {
     margin-top: 10vh;
 }
 
-.page-title {
-    font-size: 5em;
-    text-align: center;
-    font-weight: 900;
-}
-
 .subheader {
     font-size: 3em;
-    font-weight: 900;
 }
 
 .header-button {
@@ -102,19 +203,25 @@ a {
 }
 
 .btn-floating {
-  color: #3DBAFF;
+  color: #CC225E;
+  opacity: unset;
 }
+.btn-floating:hover {
+  color: #CC225E;
+  opacity: unset;
+}
+
 
 .navbar {
   padding: 1.5rem;
   background-color: white;
     font-size: 1.5em;
-    font-weight: 600;
+    /* font-weight: 600; */
     opacity: 0.975;
 }
 
 #d4gLogo {
-  width: 25%;
+  width: 75%;
 }
 
 .listItemBlackText {
@@ -123,7 +230,10 @@ a {
 }
 
 .navbar-toggler-icon {
-  background-color: #3DBAFF;
+  outline-color: gray;
+  outline-style: solid;
+  background-color: gray;
+  /* color: #3DBAFF; */
 }
 
 /* portfolio-item.html */
@@ -131,7 +241,10 @@ a {
   padding-top: 1.5rem;
 }
 
-
+.subblurb{
+  padding: 1em 2em;
+  text-align: center;
+}
 
 #microsoftLogo {
   width: 100%;
@@ -139,12 +252,25 @@ a {
   margin-right: auto; */
 }
 
+.carousel-inner{
+    width: 100%;
+    min-height: 100%;
+    min-width: auto;
+}
+
+.carousel-control-next {
+  z-index: 2;
+}
+.carousel-control-prev {
+  z-index: 2;
+}
+
 .card{
     border: none;
 }
 
 .card-img {
-    width: 100%;
+    /* width: 100%; */
     border-radius: calc(0.25rem - 1px);
 }
 
@@ -170,4 +296,8 @@ a {
 .reportImages{
   border:3px solid;
   max-height: 25rem;
+}
+
+#linkFormat {
+  text-decoration: none;
 }
